@@ -32,7 +32,7 @@ buttonHide.addEventListener('click', () => {
 window.addEventListener('load', function () {
   setTimeout(() => {
     loader.className += " hidden";
-  }, 3000)
+  }, 1000)
 });
 
 // Changing Portfolio Menu active state
