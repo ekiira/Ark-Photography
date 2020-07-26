@@ -77,14 +77,18 @@ body {
   font-size: 2.5rem;
 }
 
+.position {
+  position: relative;
+}
+
 .phg {
-  position: absolute;
-  top: 300px;
-  left: 125px;
   background-color: transparent;
   border: 5px solid rgba(100, 157, 200, 0.4);
   color: white;
   font-weight: bold;
+	position: absolute;
+  top: 88%;
+  left: 27%;
 }
 
 .teal {
@@ -353,7 +357,7 @@ footer {
 
 .loader {
   position: fixed;
-  z-index: 99;
+  z-index: 99999;
   top: 0;
   left: 0;
   width: 100%;
